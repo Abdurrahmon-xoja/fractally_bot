@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="deleted console.logs">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="preparing for heroku">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credentials.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660115935911</updated>
       <workItem from="1660115937721" duration="8720000" />
-      <workItem from="1660320107177" duration="16116000" />
+      <workItem from="1660320107177" duration="16875000" />
     </task>
     <task id="LOCAL-00001" summary="deleted console.logs">
       <created>1660367826209</created>
@@ -62,7 +62,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660367826209</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="preparing for heroku">
+      <created>1660367972410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660367972410</updated>
+    </task>
+    <task id="LOCAL-00003" summary="preparing for heroku">
+      <created>1660368047071</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660368047071</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="firs commit" />
     <MESSAGE value="deleted console.logs" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted console.logs" />
+    <MESSAGE value="preparing for heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="preparing for heroku" />
   </component>
 </project>
