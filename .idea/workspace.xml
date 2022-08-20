@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="preparing for heroku">
+      <change afterPath="$PROJECT_DIR$/addNewInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataTest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/credentials.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +36,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/abdurrahmonxoja/WebstormProjects/fractally_bot",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -54,6 +60,7 @@
       <updated>1660115935911</updated>
       <workItem from="1660115937721" duration="8720000" />
       <workItem from="1660320107177" duration="16875000" />
+      <workItem from="1660907054890" duration="4987000" />
     </task>
     <task id="LOCAL-00001" summary="deleted console.logs">
       <created>1660367826209</created>
@@ -98,5 +105,9 @@
     <MESSAGE value="deleted console.logs" />
     <MESSAGE value="preparing for heroku" />
     <option name="LAST_COMMIT_MESSAGE" value="preparing for heroku" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
