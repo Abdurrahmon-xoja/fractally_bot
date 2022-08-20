@@ -16,7 +16,7 @@ function getHive(hiveID){
                 avg += +revers[i]
             }
             objectValue.reverse()
-            result = `result of ${objectValue.length}'s  meeting ${hiveID} hive account level is ${objectValue[objectValue.length - 1]} and avg is ${Math.floor(avg / 6)}`
+            result = `result of ${objectValue.length}'s  meeting ${hiveID} hive account level is ${objectValue[objectValue.length - 1]} and avg is ${Math.round(avg / 6)}`
         }
     })
     return result

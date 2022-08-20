@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="added new info im data meeting 23">
+    <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="added new info im data meeting 24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <updated>1660115935911</updated>
       <workItem from="1660115937721" duration="8720000" />
       <workItem from="1660320107177" duration="16875000" />
-      <workItem from="1660907054890" duration="6425000" />
+      <workItem from="1660907054890" duration="7667000" />
     </task>
     <task id="LOCAL-00001" summary="deleted console.logs">
       <created>1660367826209</created>
@@ -88,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660973848720</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added new info im data meeting 24">
+      <created>1660975462982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660975462982</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +117,8 @@
     <MESSAGE value="deleted console.logs" />
     <MESSAGE value="preparing for heroku" />
     <MESSAGE value="added new info im data meeting 23" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new info im data meeting 23" />
+    <MESSAGE value="added new info im data meeting 24" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new info im data meeting 24" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
