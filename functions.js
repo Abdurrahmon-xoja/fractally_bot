@@ -42,6 +42,30 @@ async function getHive(telegramID) {
     return result
 }
 
+
+
+
+async function getTelegramID(hiveID){
+    await doc.useServiceAccountAuth({
+        client_email: credentials.client_email,
+        private_key: credentials.private_key,
+    });
+
+    await doc.loadInfo(); // loads document properties and worksheets
+    const sheet = await doc.sheetsByIndex[1]; // first sheet
+    const rows = await sheet.getRows();
+
+    let result
+
+    for (let i = 0; i < rows.length; i++) {
+        if (rows[i].hive ==  hiveID) {
+            result = rows[i].telegramID
+        }
+    }
+
+    return result
+}
+
 async function getLevel(telegramID) {
 
     await doc.useServiceAccountAuth({
@@ -87,5 +111,6 @@ async function getLevel(telegramID) {
 
 module.exports = {
     register,
-    getLevel
+    getLevel,
+    getTelegramID
 }
