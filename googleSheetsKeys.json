@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "fractally",
+  "private_key_id": "bd1bf1051bb2aa4e504fdf4866f7afd13f53e575",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDF2lXFY3W6tR3R\nAZAh6x+Vo87MODs5DsI74WO/Q1KIao7tKbzw8SDWqvxCYbZ7eWqCokoiZ/tlT1Vv\nOkhWcNzkoJEv1WMi6CPg/hPWjrNxxN6fZIXCumy65bwQBD19K6Ld+r9DH+BeMcUT\nJRgjFa5cWYVAI/dw3a9iWAS84sXF2VeJcRG+vpR5VcHyc+Ui4kTbnNmgWKWSdI3i\nK63WzwfPfTW4w1zIO/mw5YGJCoelrBeTPYUz6YL4Q8+kwcanRRyvAlUtbEiW4cpo\nzTptG1gX/BGqrxaBl5pDt+URxpU2Dhnn6XIr5AwNjv5N/8koD55JPbqpKhqB2S2P\n3BxuPp9lAgMBAAECggEACB184/greZwZAWa1ws+6JNZfnVHsy0SUdBskzvvD1xto\ndN2qewcnkGkvfck0ZatKJ9pgaDmzyUjq1BbZJY3YCvBIvDmdqRkfSEjLnK2Pj9Si\nHU9kys2q4jNEQTOXUmVs4aYkXFcNSiJy9vvQGgz3MPZYCD82vz73L7VfWQsDzyoD\nnRWIoaugGozrLOmUJG+VUTUzmODnFQoTdIJ/Vj8kNv/sLIEM7G0SxOcvT5hCz/9/\nt4G5oY0oGQHLTWe3/Ts/CLBQPrBebKbBcVfBvTGlVA3RXHm7sNrBy5TLwNRPKVKy\n4V5AHHF/wVoZ0o1wQq1LEgXumowlAVAfeffXZAmj4QKBgQDmFpR47wCz4QjnjLhC\ne+pTmBNYFUVwpgIEEtMje9WLUSxkhxgPN0nFbrx53x2+YSbHlMZcHJ0UVOlgX9e9\nI8odgfnWPrhQqxEbUz31m+tU11bd9lc8iKntUhs/zvTIvCTZP/Sr7uisV2OFknyC\naX/g2D1AxKsHYlenK3X/Kzc5oQKBgQDcImnlu+6gor4AsKinkDm710bcKOlSqIuq\nQM6jgYXl+AFTsGPP5dEZaY1lNKbibsR/FE28aMjVstzy4YzaCSLtNuOA2Ee5EGRi\neVrhtrsoNWK+bRsx0424RrxJjbM8sLdmwnd4f/w4Un8CCfxKWCmn964T5c5YUskr\ndzedAeq3RQKBgBQ+TFXPgVpSJDxrDxMaX+V27czEIlXk5SyCk3z9ui4FuEgn8p/0\nF1N9iKuYS7+iQI0ys7kK828EgXvvMsX7Th8GfnqxDfpa8qhazIq9axkN0SC6Obaj\nt3+fx7H3fWXj18IddGNkI6h2D9WCq921doDLxafbJckCh/+3PSx0GunBAoGAOYxx\nnNKFrs781xdX7/5faYD9EF9NqANSB99LZildROKSDjvlzBrrkDYs9dFO85E7o3E+\nZUwLfPp2krRuay3KSLN5xFxGW9YyOCA7pxhrUzapqtjBLER/Hza20I/P1MTqHV4n\nd4QV/u9qLrFHmHP15+hzRNZmHGcAGnHfQxeWMfUCgYEArGezbm4NX8NJ6wAELBal\nWsN9YcJ4nJIRWsrCfDEsM4DZO2TyiZcF9wJiQbFocR0VHT+4D4optr7RzcoCWV+4\nsDLfn0dbAVSexjlWPvpN+Hf3TbWksty+EXVFkIBkbCwio6PhXA0uMOETejWxlX4q\nDJ/fWdxjWcV8HHmqmdDB/Jg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "fractally-ranking@fractally.iam.gserviceaccount.com",
+  "client_id": "110817198030149194849",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/fractally-ranking%40fractally.iam.gserviceaccount.com"
+}
