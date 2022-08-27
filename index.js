@@ -31,10 +31,13 @@ endRegistration.on('message', async ctx => {
 
 bot.hears('Show my level', async ctx => {
     await ctx.reply(await getLevel(ctx.from.id),
-        Markup.
-        inlineKeyboard([
-        Markup.button.url('Click here for Google sheets' , "https://docs.google.com/spreadsheets/d/1XDyeUDxGKOUDA9u4usTIkIiA4GO7GAudBosSnHaFA1U/edit#gid=0"),
-    ]))
+        Markup
+            .keyboard([
+                ['Show my level'],
+            ])
+            .oneTime()
+            .resize()
+        )
 })
 
 bot.launch()

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="added new sentens" />
+    <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="added new sentens">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +61,7 @@
       <workItem from="1660907054890" duration="8430000" />
       <workItem from="1661435488950" duration="30295000" />
       <workItem from="1661614717937" duration="557000" />
+      <workItem from="1661618815555" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="deleted console.logs">
       <created>1660367826209</created>
@@ -129,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661615266293</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added new sentens">
+      <created>1661619106728</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1661619106728</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
