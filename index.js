@@ -10,15 +10,7 @@ const startRegistration = new Composer()
 startRegistration.on('message', async ctx => {
     await ctx.replyWithSticker('CAACAgIAAxkBAAICg2MJqogB2PSzGmrweALXNt7RYd7yAAIBAQACVp29CiK-nw64wuY0KQQ')
     await ctx.reply(`Hello 👋 ƒractally member ${ctx.from.first_name}`, )
-    await ctx.reply('I am ƒractally_level bot 😊, I show your information about hive account and notify  you.Because you here first time can you write you hive username please ❤️',
-        Markup
-            .keyboard([
-                ['Show my level'],
-            ])
-            .oneTime()
-            .resize())
-
-    return ctx.wizard.next()
+    await ctx.reply('I am ƒractally_level bot 😊, I show your information about hive account and notify  you.Because you here first time can you write you hive username please ❤️'
 })
 
 
@@ -27,10 +19,12 @@ endRegistration.on('message', async ctx => {
     register(ctx.message.text, ctx.from.id)
 
     await ctx.reply(await getLevel(ctx.from.id),
-        Markup.
-        inlineKeyboard([
-            Markup.button.url('Click here for Google sheets' , "http://telegraf.js.org"),
-        ]))
+        Markup
+            .keyboard([
+                ['Show my level'],
+            ])
+            .oneTime()
+            .resize())
     return ctx.scene.leave()
 })
 
