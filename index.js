@@ -1,7 +1,7 @@
 const {Telegraf, Markup, Composer, Scenes, session} = require('telegraf')
 require('dotenv').config()
 
-const {register, getLevel} = require('./functions')
+const {register, getLevel: getLevelFront} = require('./functions')
 
 const bot = new Telegraf(process.env.telegramBotToken)
 
@@ -18,7 +18,7 @@ const endRegistration = new Composer()
 endRegistration.on('message', async ctx => {
     register(ctx.message.text, ctx.from.id)
 
-    await ctx.reply(await getLevel(ctx.from.id),
+    await ctx.reply(await getLevelFront(ctx.from.id),
         Markup
             .keyboard([
                 ['Show my level'],
@@ -30,7 +30,7 @@ endRegistration.on('message', async ctx => {
 
 
 bot.hears('Show my level', async ctx => {
-    await ctx.reply(await getLevel(ctx.from.id),
+    await ctx.reply(await getLevelFront(ctx.from.id),
         Markup
             .keyboard([
                 ['Show my level'],

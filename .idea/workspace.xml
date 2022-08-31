@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="added new sentens" />
+    <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="added new sentens">
+      <change afterPath="$PROJECT_DIR$/telegramFunctions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addNewInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/addNewInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cronJob.js" beforeDir="false" afterPath="$PROJECT_DIR$/cronJob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +66,11 @@
       <workItem from="1660907054890" duration="8430000" />
       <workItem from="1661435488950" duration="30295000" />
       <workItem from="1661614717937" duration="557000" />
-      <workItem from="1661618815555" duration="461000" />
+      <workItem from="1661618815555" duration="844000" />
+      <workItem from="1661843396165" duration="3394000" />
+      <workItem from="1661938732567" duration="9569000" />
+      <workItem from="1661954333339" duration="1494000" />
+      <workItem from="1661957368514" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="deleted console.logs">
       <created>1660367826209</created>
@@ -144,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661619244532</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added new sentens">
+      <created>1661619555192</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1661619555192</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

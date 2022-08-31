@@ -43,9 +43,7 @@ async function getHive(telegramID) {
 }
 
 
-
-
-async function getTelegramID(hiveID){
+async function getTelegramID(hiveID) {
     await doc.useServiceAccountAuth({
         client_email: credentials.client_email,
         private_key: credentials.private_key,
@@ -58,15 +56,19 @@ async function getTelegramID(hiveID){
     let result
 
     for (let i = 0; i < rows.length; i++) {
-        if (rows[i].hive ==  hiveID) {
-            result = rows[i].telegramID
+        if (rows[i].hive == hiveID) {
+            result = rows[i].telegramIDs
         }
     }
 
-    return result
+    if (!result) {
+        return false
+    } else {
+        return result
+    }
 }
 
-async function getLevel(telegramID) {
+async function getLevelFront(telegramID) {
 
     await doc.useServiceAccountAuth({
         client_email: credentials.client_email,
@@ -100,17 +102,60 @@ async function getLevel(telegramID) {
 
     let lastMeetingDate = await sheet.getRows({limit: 1, offset: -1});
     let some = lastMeetingDate[0]._rawData
-    let some2 = some[some.length -1]
+    let some2 = some[some.length - 1]
     console.log(some2)
-    return`Last meeting #: ${some2}\nLast meeting level: ${lastLevel}\nTotal meetings participated: ${allMeeting}\nTotal respect earned: ${totalLevel}\n`
+    return `Last meeting #: ${some2}\nLast meeting level: ${lastLevel}\nTotal meetings participated: ${allMeeting}\nTotal respect earned: ${totalLevel}\n`
     // console.log(`Last meeting you level was <b>${lastLevel}</b> you participated in <b>${allMeeting}</b> meetings and your total respect is <b>${totalLevel}</b>`)
 }
 
-// getLevel('215197299')
+async function getLevelBack(hiveID) {
+    await doc.useServiceAccountAuth({
+        client_email: credentials.client_email,
+        private_key: credentials.private_key,
+    });
+
+    await doc.loadInfo(); // loads document properties and worksheets
+    const sheet = await doc.sheetsByIndex[0]; // first sheet
+    const rows = await sheet.getRows();
+
+    let arrayInfo = []
+    for (let i = 0; i < rows.length; i++) {
+        if (rows[i].hive == hiveID) {
+            let some = await sheet.getRows({limit: 1, offset: i});
+            arrayInfo.push(...some[0]._rawData)
+        }
+    }
+
+    return arrayInfo
+}
+
+async function telegramUser() {
+    await doc.useServiceAccountAuth({
+        client_email: credentials.client_email,
+        private_key: credentials.private_key,
+    });
+
+    await doc.loadInfo(); // loads document properties and worksheets
+    const sheet = await doc.sheetsByIndex[1]; // first sheet
+    const rows = await sheet.getRows();
+
+    let usersArray = []
+
+    for (let i = 0; 0 < rows.length; i++) {
+        if (rows[i]?.telegramIDs) {
+            usersArray.push(rows[i].hive)
+        }
+    }
+
+    return usersArray
+}
+
 
 
 module.exports = {
     register,
-    getLevel,
-    getTelegramID
+    getLevelFront,
+    getTelegramID,
+    telegramUser,
+    getLevelBack
 }
