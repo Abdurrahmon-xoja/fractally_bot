@@ -129,7 +129,8 @@ async function getLevelBack(hiveID) {
     return arrayInfo
 }
 
-async function telegramUser() {
+async function telegramUsers() {
+    console.log('function is working')
     await doc.useServiceAccountAuth({
         client_email: credentials.client_email,
         private_key: credentials.private_key,
@@ -139,15 +140,17 @@ async function telegramUser() {
     const sheet = await doc.sheetsByIndex[1]; // first sheet
     const rows = await sheet.getRows();
 
-    let usersArray = []
+    let telegramUsers = []
 
-    for (let i = 0; 0 < rows.length; i++) {
-        if (rows[i]?.telegramIDs) {
-            usersArray.push(rows[i].hive)
+    // console.log()
+    for (let i = 0; i < rows.length; i++) {
+        let some = rows[i]?.telegramIDs !== undefined
+        if (some) {
+            telegramUsers.push(rows[i].hive)
         }
     }
 
-    return usersArray
+    return telegramUsers
 }
 
 
@@ -156,6 +159,6 @@ module.exports = {
     register,
     getLevelFront,
     getTelegramID,
-    telegramUser,
+    telegramUsers,
     getLevelBack
 }
