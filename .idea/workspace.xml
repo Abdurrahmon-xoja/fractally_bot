@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="creating new cronjob">
+    <list default="true" id="eb8c91c6-a614-4ea8-b1b5-38b21cd5d2f9" name="Changes" comment="fully done cronJob.js">
+      <change afterPath="$PROJECT_DIR$/avg.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cronJob.js" beforeDir="false" afterPath="$PROJECT_DIR$/cronJob.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/functions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
@@ -70,7 +69,8 @@
       <workItem from="1661954333339" duration="1494000" />
       <workItem from="1661957368514" duration="1000" />
       <workItem from="1661958383146" duration="1059000" />
-      <workItem from="1662100865467" duration="9452000" />
+      <workItem from="1662100865467" duration="15505000" />
+      <workItem from="1662206183867" duration="10696000" />
     </task>
     <task id="LOCAL-00001" summary="deleted console.logs">
       <created>1660367826209</created>
@@ -170,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661958542116</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fully done cronJob.js">
+      <created>1662122963841</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1662122963841</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +206,19 @@
     <MESSAGE value="added cron job" />
     <MESSAGE value="added new sentens" />
     <MESSAGE value="creating new cronjob" />
-    <option name="LAST_COMMIT_MESSAGE" value="creating new cronjob" />
+    <MESSAGE value="fully done cronJob.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="fully done cronJob.js" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/functions.js</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
